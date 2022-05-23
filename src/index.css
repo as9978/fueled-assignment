@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "GT-Cinetype";
+  src: local("GT-Cinetype"),
+    url(/public/fonts/GT-Cinetype-Regular.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "GT-Cinetype-Bold";
+  src: local("GT-Cinetype-Bold"),
+    url(/public/fonts/GT-Cinetype-Bold.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "GT-Cinetype-Light";
+  src: local("GT-Cinetype-Light"),
+    url(/public/fonts/GT-Cinetype-Light.woff2) format("woff");
+}
+@font-face {
+  font-family: "GT-Cinetype-Mono";
+  src: local("GT-Cinetype-Mono"),
+    url(/public/fonts/GT-Cinetype-Mono.woff2) format("woff");
 }

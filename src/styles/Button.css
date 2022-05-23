@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "GT-Cinetype";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  padding: 13.5px 8px;
+  text-transform: uppercase;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: #ae0000;
+}
+
+.button.glass {
+  background-color: rgba(245, 245, 241, 0.2);
+}
+
+.button.ghost {
+  background-color: transparent;
+  color: #ae0000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button.fullwidth {
+  width: 100%;
+}
+
+.plus-icon {
+  margin-right: 8px;
+}
